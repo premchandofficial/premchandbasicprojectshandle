@@ -1,0 +1,132 @@
+body{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+      height: 550px;
+      width: 100%;
+      background-color: blue;
+}
+nav .logo p{
+      font-size: 30px;
+      color: white;
+      padding: 15px 20px;
+      margin: 0px;
+      float: left;
+}
+nav ul{
+      float: left;
+      list-style: none;
+      padding:0px;
+      margin:0px;
+}
+nav li{
+            display: inline-block;
+            padding: 20px;
+}
+nav li a{
+      font-size: 22px;
+      color: white;
+      text-decoration: none;
+      transition:1s all ease;
+      
+      
+}
+nav li a:hover{
+      color: rgb(241, 19, 19);
+}
+.main{
+clear: both;
+margin-top: 60px;
+
+background-color: rgb(114, 214, 172);
+
+}
+.s1{
+      width: 400px;
+      height: 350px;
+      margin-left: 40px;
+      float: left;
+      
+
+}
+.s1 h1,p{
+      color: white;
+}
+.s1 button a{
+      text-decoration: none;
+      font-weight: bold;
+}
+.s1 button{
+      width: 150px;
+      height: 40px;
+      font-size: 20px;
+      color:blue;
+      border: none;
+}
+.s1 button:hover{
+      background: #a59c9c;
+      color: white;
+      
+      
+}
+.s2 img{
+      width: 650px;
+      height: 400px;
+      float: right;
+      margin: 20px 110px 0px 0px;
+
+}
+
+.container2{
+      width:  100% ;
+      height: 400px;
+}
+#pix img{
+      height: 400px;
+      width: 500px;
+      padding: 30px 0px 0px 30px;
+      float: left;
+      clear: both;
+      overflow:auto;
+      
+}
+#s4{
+      width: 700px;
+      float: right;
+      margin: 20px  65px 0px 0px;
+}
+#s4 p{
+      color: black;
+}
+#tagbutton{
+      height: 60px;
+      width: 400px;
+      background-color: rgb(145, 184, 218);
+}
+#tagbutton button{
+      margin: 12px 0px 0px 2px;
+      padding: 2px;
+      border: none;
+}
+#tagbutton button a{
+      text-decoration: none;
+      font-size: 20px;
+      color: rgb(22, 21, 21);
+      padding: 10px 12px;
+      
+      
+}
+#tagbutton button a:hover{
+
+      
+}
+
+
+
+
+
+
+

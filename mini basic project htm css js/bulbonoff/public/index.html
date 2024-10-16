@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Blub Project</title>
+      <style>
+            body{
+                  font-family: Arial, Helvetica, sans-serif;
+                  background-color: rgb(79, 87, 79);
+            }
+            .container{
+                  text-align: center;
+                  color: white;
+                  margin-top: 50px;
+            }
+            .container button{
+                  font-size: 30px;
+                  font-weight: bold;
+                  padding: 10px;
+            }
+            .demo{
+                  margin-top: 100px;
+            }
+            .demo img{
+                  
+            }
+      </style>
+</head>
+
+<body>
+      <div class="container">
+            <h1>Bulb On Off Project</h1>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+       <button onclick="document.getElementById('pic').src='./public/pic_bulbon.gif'">Bulb On</button>
+
+       <button onclick="document.getElementById('pic').src='./public/pic_bulboff.gif'">Bulb Off</button>
+
+          <div class="demo">
+            <img id="pic" src="./public/pic_bulboff.gif" alt=>
+          </div>
+
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./app.css">
+      <title>Calculatar</title>
+</head>
+<body>
+      <h1>Calculatar</h1>
+      <div class="container">
+            <form name="myform">
+                 
+                  <input type="text" name="answer" id="screen">
+                  <br>
+
+                  <input type="button" value="1" onclick="myform.answer.value+='1' ">
+                  <input type="button" value="2" onclick="myform.answer.value+='2' ">
+                  <input type="button" value="3" onclick="myform.answer.value+='3' ">
+                     <br>
+                  <input type="button" value="4" onclick="myform.answer.value+='4' ">
+                  <input type="button" value="5" onclick="myform.answer.value+='5' ">
+                  <input type="button" value="6" onclick="myform.answer.value+='6' ">
+                     <br>   
+                  <input type="button" value="7" onclick="myform.answer.value+='7' ">
+                  <input type="button" value="8" onclick="myform.answer.value+='8' ">
+                  <input type="button" value="9" onclick="myform.answer.value+='9' ">
+                     <br>
+                  <input type="button" value="*" onclick="myform.answer.value+='*' ">
+                  <input type="button" value="/" onclick="myform.answer.value+='/' ">
+                  <input type="button" value="0" onclick="myform.answer.value+='-' ">
+                  <br>
+                  <input type="button" value="+" onclick="myform.answer.value+='+' ">
+                  <input type="button" value="-" onclick="myform.answer.value+='-' ">
+
+                  <input id="equalsign" type="button" value="=" onclick="myform.answer.value= eval(myform.answer.value) ">
+                  <br>
+                  <input id="cleardata" type="button" value="Clear" onclick="myform.answer.value='' ">
+
+
+
+
+                 
+
+            </form>
+      </div>
+</body>
+</html>
